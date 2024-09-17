@@ -1,6 +1,6 @@
 # Local Results Performance Heatmap
 
-This project generates a heatmap to visualize the performance of a client's website in local search results. It uses a city and state to generate surrounding zip codes and runs a SERP API query for each keyword and zip code. The results are then visualized on a heatmap.
+This notebook generates a heatmap to visualize the performance of a client's website in local search results. It uses a city and state to generate surrounding zip codes and runs a SERP API query for each keyword and zip code. The results are then visualized on a heatmap.
 
 
 ## Installation
