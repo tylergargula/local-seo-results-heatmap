@@ -37,3 +37,6 @@ CSV file: export/kw_zipcode_df_aesthetic_dental.csv
 Plotly heatmap: plots/heatmap_ranking_zipcodes_<timestamp>.png
 Folium map: plots/folium_map_<timestamp>.html
 ```
+
+![Plotly Heatmap](https://github.com/tylergargula/local-seo-results-heatmap/blob/main/plots/plotly_heatmap_20240917_172836.png)
+![Folium Heatmap](https://github.com/tylergargula/local-seo-results-heatmap/blob/main/plots/folium_map_20240917_172836.png)
