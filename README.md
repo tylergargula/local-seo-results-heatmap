@@ -11,29 +11,34 @@ This notebook generates a heatmap to visualize the performance of a client's web
    cd Local_Results_Heatmap
    ```
    
-2. Install the required packages:
+2. Install Poetry (if you haven't already):
 ```sh
-   pip install pandas pgeocode tqdm zipcodes geopy requests plotly folium branca
+curl -sSL https://install.python-poetry.org | python3 -
+
+# Install dependencies
+poetry install
    ```
 
 ## Usage
-Set your SERP API key and endpoint in the script:  
+1. Set your SERP API key and endpoint in the script:  
 ```python 
 VALUE_SERP_KEY = 'YOUR_SERP_API_KEY'
 VALUE_SERP_ENDPOINT = 'https://api.valueserp.com/search'
 ```
 
-Configure the city, state, and distance threshold:  
+2. Configure the city, state, and distance threshold:  
 ```python 
 city = "Santa Clarita"
 state = "CA"
 distance_threshold = 6  # in miles, adjust as needed
 ```
-Run the notebook to generate a CSV file with the local SEO results and visualize the data using `Plotly` and `Folium`.
+3. Run the notebook to generate a heatmap
+
+4. The results will be saved in a CSV file and visualized in a Plotly heatmap and a Folium map.
 
 ## Output
 ```txt
-CSV file: export/kw_zipcode_df_aesthetic_dental.csv
+CSV file: export/kw_zipcode_data.csv
 Plotly heatmap: plots/heatmap_ranking_zipcodes_<timestamp>.png
 Folium map: plots/folium_map_<timestamp>.html
 ```
